@@ -1,0 +1,33 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 4rem;
+    
+}
+.divnovidades{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-size: clamp(8.5vw, 2vw, 3vw);
+    font-weight: 700;
+    margin-bottom:.2rem;
+    margin-top:.2rem;
+}
+.divnoticia{
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    margin-top:.5rem;
+    vertical-align: middle;
+ }
+img{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 13rem;
+ 
+}

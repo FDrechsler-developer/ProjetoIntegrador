@@ -1,0 +1,44 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 4rem;
+    
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-size: clamp(8.5vw, 2vw, 3vw);
+    font-weight: 700;
+    margin-bottom:.2rem;
+    margin-top:.2rem;
+}
+.divmission{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 1rem;
+
+}
+.divgrid{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+}
+.divimg{
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    display: table-cell;
+    flex-direction: columns;
+    align-items: flex-end;
+
+    }
+ img{
+    display: block;
+    margin: auto auto;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #c44343;
+
+ 
+}
+

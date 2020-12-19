@@ -1,0 +1,93 @@
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.cabecalho {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+    align-content: center;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navegar {
+    margin-top: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.topnav {
+    overflow: auto;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    width: 20%;/*era 25%*/
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color:white;
+    border-radius: 20px;
+}
+
+.topnav a.active {
+    /*background-color: red;*/
+    color: white;
+}
+
+.corpo {
+    margin-top: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    height: 73vh;
+}
+
+.rodape {
+    margin-top: 1px;
+    font-size: small;
+    text-align: center;
+    align-content: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    .topnav {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+iframe {
+    width: 100%;
+    border-radius: 20px;
+    height: 73vh;
+}

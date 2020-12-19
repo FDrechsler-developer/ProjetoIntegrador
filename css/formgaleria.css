@@ -1,0 +1,112 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 4rem;
+    
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-size: clamp(8.5vw, 2vw, 3vw);
+    font-weight: 700;
+    margin-bottom:.2rem;
+    margin-top:.2rem;
+}
+.divgaleria{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 1rem;
+
+}
+.divtextgaleria{
+    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    margin-top:.5rem;
+    vertical-align: middle;
+    text-align: justify;
+ }
+ .divcontainergaleria{
+    display: flex;
+    flex-wrap: nowrap;
+    border:2px solid red;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 90%;
+    padding: 1rem;
+    
+}
+.divcontainerslide{
+    border:2px solid black; 
+    border-radius:1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+
+
+}
+.divslideshow {
+    max-width: 90rem;
+    position: relative;
+    margin: auto;
+    background-color:white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+img{
+    border-radius: 1rem;
+}
+
+.mySlides {
+    display: none;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 1rem;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
