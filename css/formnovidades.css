@@ -31,3 +31,10 @@ img{
     width: 13rem;
  
 }
+@media (max-width: 600px) {
+    body{
+        padding: 1rem;
+        
+    }
+
+}

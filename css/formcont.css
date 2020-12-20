@@ -82,3 +82,10 @@ body{
 .primary-button:hover {
     background: red;
 }
+@media (max-width: 800px) {
+    body{
+        padding: 1rem;
+        
+    }
+
+}

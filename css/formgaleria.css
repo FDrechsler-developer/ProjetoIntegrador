@@ -110,3 +110,21 @@ img{
         opacity: 1
     }
 }
+@media (max-width: 800px) {
+    body{
+        padding: 1rem;
+        
+    }
+    .divcontainergaleria{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .divcontainerslide{
+
+        margin-top: 1rem;
+    
+    
+    }
+
+}

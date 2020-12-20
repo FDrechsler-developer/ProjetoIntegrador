@@ -38,7 +38,21 @@ h1 {
     border-radius: 20px;
     padding: 1rem;
     background-color: #c44343;
+    max-width: 30%;
 
- 
 }
+@media (max-width: 800px) {
+    body{
+        padding: 1rem;
+        
+    }
+    .divgrid{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+
+
 

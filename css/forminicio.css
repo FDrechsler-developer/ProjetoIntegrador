@@ -71,3 +71,50 @@ text-align: justify;
     max-width: 100%;
     border-radius: 1rem;
     }
+    @media (max-width: 800px) {
+        body{
+            padding: 1rem;
+            
+        }
+        .divtextvideo{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+            box-sizing: border-box;
+
+        }
+        .divtext{
+            width: 90%;
+
+            margin-bottom: 1rem;
+        }
+        .divvideo{
+            width: 90%;
+        }
+            .divimages{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                justify-content: center;
+    
+        
+        }
+        .divimage{
+            position: relative;
+            background-color:white;
+            border-radius: 1rem;
+            padding:0.5rem;
+            height: 100%;
+            width: 10%;
+    }
+        .fitimg{
+            display: block;
+            max-height: 100%;
+            max-width: 100%;
+            border-radius: 1rem;
+
+            object-fit: cover;
+            }
+    }
+ 
